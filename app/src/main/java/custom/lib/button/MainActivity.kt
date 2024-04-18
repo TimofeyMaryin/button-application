@@ -87,7 +87,7 @@ class MainActivity : ComponentActivity() {
                             }
                         }
                         item { ButtonSecondaryCircle(value = "Button Circle") {} }
-                        
+
                         item { ButtonSecondaryCircle(value = "GradeGray", back = ButtonBrushBackground.GradeGray) {} }
                         item { ButtonSecondaryCircle(value = "JShine", back = ButtonBrushBackground.JShine) {} }
                         item { ButtonSecondaryCircle(value = "MoonlitAsteroid", back = ButtonBrushBackground.MoonlitAsteroid) {} }
