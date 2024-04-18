@@ -233,6 +233,7 @@ fun ButtonSecondaryCircle(
                 .clip(circleClip())
                 .background(bg)
                 .width((conf.screenWidthDp * 0.5).dp)
+                .height(50.dp)
                 .clickable {
                     onClick()
                     Log.e("TAG", "ButtonSecondaryCircle: ", )
@@ -246,7 +247,6 @@ fun ButtonSecondaryCircle(
                 value = value,
                 color = contentColor!!,
                 fontWeight = FontWeight.SemiBold,
-                modifier = Modifier.padding(vertical = 15.dp)
             )
 
         }

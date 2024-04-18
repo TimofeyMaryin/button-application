@@ -33,69 +33,76 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    LazyColumn(
-                        modifier = Modifier.fillMaxSize(),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
-                        item {
-                            ButtonPrimary(value = "Button 1", background = background) {
 
-                            }
-                        }
-                        item {
-                            ButtonPrimary(
-                                value = "Button 2",
-                                background = onBackground,
-                                contentColor = secondary
-                            ) {
+                    ButtonSecondaryCircle(value = "Button Circl") {
 
-                            }
-                        }
-
-                        item {
-                            ButtonSecondaryIcon(
-                                value = "Button 1 Icon",
-                                icon = Icons.Default.Check
-                            ) {
-
-                            }
-                        }
-
-                        item {
-                            ButtonSecondaryIcon(
-                                value = "Button 2 Icon",
-                                icon = Icons.Default.Call,
-                                posIcon = PosIcon.START
-                            ) {
-
-                            }
-                        }
-
-                        item {
-                            ButtonSecondaryIcon(
-                                value = "Button 3 Icon",
-                                icon = Icons.Default.Call,
-                                posIcon = PosIcon.END
-                            ) {
-
-                            }
-                        }
-
-                        item {
-                            ButtonSecondary(value = "Button Secondary") {
-
-                            }
-                        }
-                        item { ButtonSecondaryCircle(value = "Button Circle") {} }
-
-                        item { ButtonSecondaryCircle(value = "GradeGray", back = ButtonBrushBackground.GradeGray) {} }
-                        item { ButtonSecondaryCircle(value = "JShine", back = ButtonBrushBackground.JShine) {} }
-                        item { ButtonSecondaryCircle(value = "MoonlitAsteroid", back = ButtonBrushBackground.MoonlitAsteroid) {} }
-                        item { ButtonSecondaryCircle(value = "Amin", back = ButtonBrushBackground.Amin) {} }
-                        item { ButtonSecondaryCircle(value = "Wiretab", back = ButtonBrushBackground.Wiretab) {} }
-                        item { ButtonSecondaryCircle(value = "CitrusPeel", back = ButtonBrushBackground.CitrusPeel) {} }
-                        item { ButtonSecondaryCircle(value = "RainbowBlue", back = ButtonBrushBackground.RainbowBlue) {} }
                     }
+//                    LazyColumn(
+//                        modifier = Modifier.fillMaxSize(),
+//                        horizontalAlignment = Alignment.CenterHorizontally
+//                    ) {
+//                        item {
+//
+//                        }
+//                        item {
+//                            ButtonPrimary(value = "Button 1", background = background) {
+//
+//                            }
+//                        }
+//                        item {
+//                            ButtonPrimary(
+//                                value = "Button 2",
+//                                background = onBackground,
+//                                contentColor = secondary
+//                            ) {
+//
+//                            }
+//                        }
+//
+//                        item {
+//                            ButtonSecondaryIcon(
+//                                value = "Button 1 Icon",
+//                                icon = Icons.Default.Check
+//                            ) {
+//
+//                            }
+//                        }
+//
+//                        item {
+//                            ButtonSecondaryIcon(
+//                                value = "Button 2 Icon",
+//                                icon = Icons.Default.Call,
+//                                posIcon = PosIcon.START
+//                            ) {
+//
+//                            }
+//                        }
+//
+//                        item {
+//                            ButtonSecondaryIcon(
+//                                value = "Button 3 Icon",
+//                                icon = Icons.Default.Call,
+//                                posIcon = PosIcon.END
+//                            ) {
+//
+//                            }
+//                        }
+//
+//                        item {
+//                            ButtonSecondary(value = "Button Secondary") {
+//
+//                            }
+//                        }
+//                        item { ButtonSecondaryCircle(value = "Button Circle") {} }
+//
+//                        item { ButtonSecondaryCircle(value = "GradeGray", back = ButtonBrushBackground.GradeGray) {} }
+//                        item { ButtonSecondaryCircle(value = "JShine", back = ButtonBrushBackground.JShine) {} }
+//                        item { ButtonSecondaryCircle(value = "MoonlitAsteroid", back = ButtonBrushBackground.MoonlitAsteroid) {} }
+//                        item { ButtonSecondaryCircle(value = "Amin", back = ButtonBrushBackground.Amin) {} }
+//                        item { ButtonSecondaryCircle(value = "Wiretab", back = ButtonBrushBackground.Wiretab) {} }
+//                        item { ButtonSecondaryCircle(value = "CitrusPeel", back = ButtonBrushBackground.CitrusPeel) {} }
+//                        item { ButtonSecondaryCircle(value = "RainbowBlue", back = ButtonBrushBackground.RainbowBlue) {} }
+//                    }
                 }
             }
         }
